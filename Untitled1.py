@@ -4,21 +4,12 @@
 # In[1]:
 
 
-import math
-x=input ("Потери=")
-x=int(x)
-y=input ("Прибыль=")
-y=int(y)
-if x>y:
-    res=x-y
-    print ("Ваши убытки составили:",res)
-elif x<y:
-    res=y-x
-    print ("Ваши прибыль составили:",res) 
+qty0ranges=input(0)
+price0range=input()
 
+qty0ranges=int(qty0ranges)
+price0range=float(price0range)
 
-# In[ ]:
-
-
-
+sum0ranges=qty0ranges*price0range
+print("Заплатите",sum0ranges, "руб")
 
